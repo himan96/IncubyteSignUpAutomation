@@ -22,10 +22,10 @@ public class SignupSteps {
 
     @When("I enter valid details")
     public void iEnterValidDetails() {
-        signUpPage.enterFirstName("John");
-        signUpPage.enterLastName("Doe");
-        signUpPage.enterEmail("john.doe@example.com");
-        signUpPage.enterPassword("Password123");
+        signUpPage.enterFirstName("Himanshu");
+        signUpPage.enterLastName("Gapchoop");
+        signUpPage.enterEmail("himanshugapchoop@gmail.com");
+        signUpPage.enterPassword("Himan#123_");
     }
 
     @And("I submit the signup form")
